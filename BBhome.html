@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <title>Bamboozled Brewing</title>
+  <link rel="stylesheet" href="BBHomepage.css">
+  <link rel="stylesheet" href="BBNavigation.css">
+</head>
+
+<body>
+  <!--Creates the navigation bar with link to the other pages.-->
+  <header>
+    <nav class="topnav" id="nav_bar"> 
+      <a href="index.html">
+        <img src="monogram_bb_logo.png" alt="Bamboozled Brewing Logo" id="logo"><!--IMG FROM: https://cdn.dribbble.com/users/1814782/screenshots/4953155/monogram_bb_logo.jpg-->
+      </a>
+      <a class="nav_link" href="BBFaq.html">F.A.Q.</a>
+      <a class="nav_link" href="BBAbout.html">Contact Us</a>
+      <a class="nav_link" href="BBWhereToBuy.html">Where to Buy</a>
+    </nav>
+  </header>
+<main id="home">
+  <div id="intro">
+    <h1>Welcome to Bamboozeled Brewing!</h1>
+    <h3>Today will be one of those experiences where you'll sit back and say, "Oh yeah, I remember that".</h3><!--QUOTED FROM: https://apexlegends.gamepedia.com/Mirage-->
+    <img src="Brewhouse2+(1).jpg" id="main_img"> <!--IMG FROM: https://cdn.dribbble.com/users/1814782/screenshots/4953155/monogram_bb_logo.jpg-->
+    <h3>Our world</h3>
+      <p id="description">
+       Located in the Caroline Bay Marina in Bermuda, we make hard seltzer drinks that have about as much flavor as pretty much any other hard seltzer. We guarantee that our "stellar" drinks
+       will have you looking across the can at your friends thinking snobby thoughts and buzzing hard. All while having <u>0 calories</u>! 
+      </p>
+        <h3>Our flavors</h3>
+    </div>
+    <!--
+    CODE FROM TUTORIALS ON YOUTUBE:
+    https://www.youtube.com/watch?v=VYsVOamdB0g
+    https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+    -->
+    <div class="carousel">
+
+      <button class="carousel_button carousel_button--left"><img src="arrowLeft.jpeg" class="arrow" alt="left"></button><!--IMG FROM: https://s.clipartkey.com/mpngs/s/169-1699457_orange-arrow-icon-png.png-->
+
+      <div class="carousel_track-container">
+        <ul class="carousel_track" id="carousel_track">
+          <li class="carousel_image">
+            <img src="lime-seltzer.png" class="carousel_img" alt="lime seltzer picture"><!--IMG FROM: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/refreshing-hard-sparkling-water-royalty-free-image-668395434-1554395556.jpg?crop=1.00xw:0.752xh;0,0.101xh&resize=980:*-->
+          </li>
+          <li class="carousel_image">
+            <img src="rasp-seltzer.png" class="carousel_img" alt="raspberry lime seltzer picture"><!--IMG FROM: https://i1.wp.com/www.foodrepublic.com/wp-content/uploads/2016/10/vodka.jpg?fit=2048%2C2048&ssl=1-->
+          </li>
+          <li class="carousel_image">
+            <img src="orange-seltzer.jpg" class="carousel_img" alt="orange seltzer picture"><!--IMG FROM: https://cdn.pixabay.com/photo/2013/11/13/22/11/oranges-210251_960_720.jpg-->
+          </li>
+        </ul>
+      </div>
+
+      <button class="carousel_button carousel_button--right">
+        <img src="arrow.jpeg" class="arrow" alt="right"><!--IMG FROM: https://s.clipartkey.com/mpngs/s/169-1699457_orange-arrow-icon-png.png-->
+      </button>
+    </div>
+    <div id="rave">
+      <!-- Personally not a fan of scollboxes but I am a fan of points so...-->
+      <h3>Feel free to read some rave reviews from our loyal customers. Well, mostly loyal.</h3>
+      <div style="overflow: auto;" id="scrollbox">
+        <ul>
+          <li>
+            <h4>Steve from Canada</h4>
+            <p>"Pretentious? Yes. Flavorless? Yes. Did I still drink it? Yes. Because I want to look down on people while I 
+                drink my terrible seltzer drink."
+            </p>
+          </li>
+          <li>                    
+            <h4>Caroline from France</h4>
+            <p>"I tried this once, and I have to say it was worth every penny! I got the lime and I have to say it reminded
+                me a lot of those flavored drinks you get at the gas station for a dollar. So. Good"
+            </p>
+          </li>
+          <li>
+            <h4>James from Colorado</h4>
+              <p>"When I first tried this I thought to myself, 'I must be getting sick because this has literally no flavor.' 
+                  But when I tried another about a week ago I'm still not able to taste it. IDK, must just be a really strong cold."
+              </p>
+          </li>
+          <li>                    
+            <h4>Jecka from Florida</h4>
+              <p>"I drink these because I'm trying to lose weight, my S.O. says there's stil calories in them because alcohol is 
+                  just a type of sugar. But what does he know? Anyways it has about as much flavor as it does calories. So like not a lot."
+              </p>
+          </li>
+          <li>                    
+            <h4>Becki from Colorado</h4>
+              <p>"This is a taste of the goodlife, but don't worry if you can't afford it! Just turn on the tap, fill a glass with water 
+                  and let it sit out for 5-10 days without being covered. Do the same with a lime or banana or something and just throw 
+                  it in there. Boom, now just imagine paying $20 for it and you've pretty much got it! DIY BABYYY!
+              </p>
+          </li>
+        </ul>    
+      </div>
+    </div>
+</main>
+
+<!--Creates the footer with links to socials, adrees, and phone.-->
+<footer>
+  <ul id="contact">
+    <li>Address: <a href="https://www.google.com/maps?ll=32.271467,-64.861028&z=15&t=m&hl=en&gl=US&mapclient=embed&daddr=Caroline+Bay+Marina+8+Caroline+Bay+Rd+Sandys+SB+01+Bermuda@32.271467,-64.86102799999999">8 Caroline Bay Rd, Sandys SB 01, Bermuda</a></li>
+    <li>Phone: <a href="tel: +1 (855) 555-7904">(855) 555-7904</a></li>
+  </ul>
+
+  <ul id="icons">
+    <li>
+      <a href="https://www.facebook.com/facebook" target="_blank"> <!--IMG FROM: https://www.google.com/search?q=facebook+widget+icon&sxsrf=ALeKk01CNU1lhMfRzu_N8KK5kp1na4fcQw:1590164961408&tbm=isch&source=iu&ictx=1&fir=DmnG-9wUl_2CeM%253A%252CVJXk2qIdHoMN0M%252C_&vet=1&usg=AI4_-kS45rbFhNonZMoMTH-5gpdZlMsv9A&sa=X&ved=2ahUKEwicsaKN8sfpAhUPVs0KHZ8JDdkQ9QEwAnoECAoQIA#imgrc=DmnG-9wUl_2CeM:-->
+        <img src="facebook widget.png" alt="Facebook" id="facebook_link" class="footer_widget">
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/" target="_blank"> <!--IMG FROM: https://png.pngtree.com/element_our/md/20180626/md_5b321ca3631b8.jpg-->
+        <img src="insta.png" alt="Instagram" id="insta_link" class="footer_widget">
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/?lang=en" target="_blank"> <!--IMG FROM: https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png-->
+        <img src="twitter.png" alt="Twitter" id="twitter_link" class="footer_widget">
+      </a>
+    </li>
+  </ul>
+</footer>
+  <script src="BBHomepage.js"></script>
+  <script src="BBNavigation.js"></script>
+</body>
+</html>

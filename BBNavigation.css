@@ -1,0 +1,76 @@
+#logo {
+    height: 46px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav_link {
+    font-size: 20px;
+    padding: 20px;
+    float: right;
+    text-decoration: none;
+    color: #FEC56B;
+}
+
+.topnav a:hover {
+    color: #EAA83A;
+    text-decoration: underline;
+    transition: 250ms ease-in;
+}
+
+.topnav a:active {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0px;
+}
+
+footer {
+    height: 55px;
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    bottom: 0px;
+    position: sticky;
+}
+
+footer > ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer_widget {
+    width: auto;
+    height: 29px;
+    margin: 5px;
+}
+
+#icons {
+    float: right;
+}
+
+#icons > li {
+    display: inline-block;
+}
+
+#contact {
+    position: relative;
+}
+
+a {
+    color: #FEC56B;
+    text-decoration: none;
+}

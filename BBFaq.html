@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <title>Bamboozled Brewing</title>
+  <link rel="stylesheet" href="BBNavigation.css">
+  <link rel="stylesheet" href="BBFaq.css">
+</head>
+
+<body>
+  <!--Creates the navigation bar with link to the other pages.-->
+  <header>
+    <nav class="topnav" id="nav_bar"> 
+      <a href="index.html">
+        <img src="monogram_bb_logo.png" alt="Bamboozled Brewing Logo" id="logo"><!--IMG FROM: https://cdn.dribbble.com/users/1814782/screenshots/4953155/monogram_bb_logo.jpg-->
+      </a>
+      <a id="faq" class="nav_link" href="BBFaq.html">F.A.Q.</a>
+      <a id="about" class="nav_link" href="BBAbout.html">Contact Us</a>
+      <a id="wtb" class="nav_link" href="BBWhereToBuy.html">Where to Buy</a>
+    </nav>
+  </header>
+
+<!--Creates the container for the questions, questions hold their answers in a hidden span which is called in JS to display their answer-->
+<main id="faq">
+  <div id="head">
+    <h1>Some questions we are asked frequently...</h1>
+  </div>
+  <div id="big-div">
+    <div id="titles">
+      <ul>
+        <li class="question top-question">
+          <h3>
+            <a href="igot-no-flavor.png" download="flavor.png">How much flavor do you deserve? *Download</a><!--IMG FROM: https://pics.me.me/igot-no-flavor-tsalideserve-really-me-irl-41659913.png-->
+          </h3>
+        </li>
+        <li class="question">
+          <span id="allegations">
+            <h3>What's your response to allegations of your hard seltzers having no flavor?</h3>
+          </span>
+          <span id="allegations_answer" hidden>
+            We are shocked, stunned, and amazed that someone would make such a claim. 
+            But people buy our products so deal with it. 
+          </span>
+        </li>
+        <li class="question">
+          <span id="where-to-buy">
+            <h3>Where can I buy Bamboozled brewing booze?</h3>
+          </span>
+          <span id="where-to-buy_answer" hidden>
+            We are available in most groccery stores, and have our facilty in Caroline Bay.
+            But you can look for us and our retail locations <a href="BBAbout.html">here</a>. 
+          </span>
+        </li>
+        <li class="question">
+          <span id="non-alcoholic">
+            <h3>Do you have non-alcoholic drinks?</h3>
+          </span>
+          <span id="non-alcoholic_answer" hidden>
+            We don't but if you go buy sparkling water at the store you're pretty much there.
+          </span>
+        </li>
+        <li class="question">
+          <span id="nutrition">
+            <h3>Is there additional nutrition information?</h3>
+          </span>
+          <span id="nutrition_answer" hidden>
+            Nope. Just don't think about it.
+          </span>
+        </li>
+        <li class="question bottom-question">
+          <span id="psl">
+            <h3>Why is PSL only a fall flavor?</h3>
+          </span>
+          <span id="psl_answer" hidden>
+            We lease this flavor from a major coffee roaster, sadly they control the PSL 
+            and dictate that we can only sell it between the months of July and December.
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div id="response">
+      <!--Questions are displayed here so you know which question is being answered-->
+      <div id="question-title">
+      </div>
+      <div id="answers">
+        <!--Answers are placed here using JS-->
+        Click on a question and the answer will be displayed here!
+      </div>
+    </div>
+  </div>
+</div>
+  <p>Don't see the answer to your question? Feel free to get intouch with us <a href="BBAbout.html">here</a>!</p>
+</main>
+
+<!--Creates the footer which has links to socials, address, and telephone.-->
+<footer>
+  <ul id="contact">
+    <li>Address: <a href="https://www.google.com/maps?ll=32.271467,-64.861028&z=15&t=m&hl=en&gl=US&mapclient=embed&daddr=Caroline+Bay+Marina+8+Caroline+Bay+Rd+Sandys+SB+01+Bermuda@32.271467,-64.86102799999999">8 Caroline Bay Rd, Sandys SB 01, Bermuda</a></li>
+    <li>Phone: <a href="tel: +1 (855) 555-7904">(855) 555-7904</a></li>
+  </ul>
+  <ul id="icons">
+    <li>
+      <a href="https://www.facebook.com/facebook" target="_blank"> <!--IMG FROM: https://www.google.com/search?q=facebook+widget+icon&sxsrf=ALeKk01CNU1lhMfRzu_N8KK5kp1na4fcQw:1590164961408&tbm=isch&source=iu&ictx=1&fir=DmnG-9wUl_2CeM%253A%252CVJXk2qIdHoMN0M%252C_&vet=1&usg=AI4_-kS45rbFhNonZMoMTH-5gpdZlMsv9A&sa=X&ved=2ahUKEwicsaKN8sfpAhUPVs0KHZ8JDdkQ9QEwAnoECAoQIA#imgrc=DmnG-9wUl_2CeM:-->
+        <img src="facebook widget.png" alt="Facebook" id="facebook_link" class="footer_widget"> 
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/" target="_blank"> <!--IMG FROM: https://png.pngtree.com/element_our/md/20180626/md_5b321ca3631b8.jpg-->
+        <img src="insta.png" alt="Instagram" id="insta_link" class="footer_widget">
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/?lang=en" target="_blank"> <!--IMG FROM: https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png-->
+        <img src="twitter.png" alt="Twitter" id="twitter_link" class="footer_widget">
+      </a>
+    </li>
+  </ul>
+</footer>
+  <script src="BBNavigation.js"></script>
+  <script src="BBFaq.js"></script>
+</body>
+</html>

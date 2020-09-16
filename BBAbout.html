@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <title>Bamboozled Brewing</title>
+  <link rel="stylesheet" href="BBNavigation.css">
+  <link rel="stylesheet" href="BBAbout.css">
+</head>
+
+<body>
+  <!--Creates the navigation bar with link to the other pages.-->
+  <header>
+    <nav class="topnav" id="nav_bar"> 
+      <a href="index.html">
+        <img src="monogram_bb_logo.png" alt="Bamboozled Brewing Logo" id="logo"><!--IMG FROM: https://cdn.dribbble.com/users/1814782/screenshots/4953155/monogram_bb_logo.jpg-->
+      </a>
+      <a id="faq" class="nav_link" href="BBFaq.html">F.A.Q.</a>
+      <a id="about" class="nav_link" href="BBAbout.html">Contact Us</a>
+      <a id="wtb" class="nav_link" href="BBWhereToBuy.html">Where to Buy</a>
+    </nav>
+  </header>
+  <!--Form element to submit contact information-->
+<main id="about">
+  <div id="form-container">
+    <form id="contact_info">
+      <div class="form-wrapper">
+        <legend class="form-input">Want to get in touch?</legend>
+      </div>
+      <div class="form-wrapper">
+        <label>Name*:</label>
+        <input type="text" placeholder="e.g. Steve" id="name" class="form-input" required></input>
+      </div>
+      <div class="form-wrapper">
+        <label>Age*:</label>
+        <input type="number" placeholder="21+ only" id="age" class="form-input" required></input>
+      </div>
+      <div class="form-wrapper">
+        <label>E-mail*:</label>
+        <input type="email" placeholder="steve@bb.org" id="email" class="form-input" required></input>
+      </div>
+      <div class="form-wrapper">
+        <label>Zip:</label>
+        <input type="text" placeholder="Zip Code" id="zip" class="form-input"></input>
+      </div>
+      <!--Creates the dropdown selection list-->
+      <div class="form-wrapper">
+        <fieldset>
+          <legend>What's on your mind?</legend>
+            <div class="form-wrapper">
+              <select name="topic" id="topic-select" class="form-input" required>
+                <option value="">--Please choose and option*--</option>
+                <option value="promotion">Promtional Content</option>
+                <option value="partner">Partner With Us</option>
+                <option value="product-suggestion">Product/Flavor Suggestion</option>
+                <option value="concern">Producty Quality Concern</option>
+                <option value="money">Refund/Rebate</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-wrapper">
+              <textarea id="content" name="content" rows="10" cols="40"  placeholder="I was at the bar with the boys when..." minlength="10" maxlength='1000' class="form-input" required></textarea>
+            </div>
+        </fieldset>
+      </div>
+        <div class="form-wrapper">
+          <label class="form-input">* Indicates a required field</label> 
+        </div>
+        <div class="form-wrapper">
+          <button type="submit" id="submit" class="form-input">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</main>
+
+<!--Creates the footer with links to socials, adrees, and phone.-->
+<footer>
+  <ul id="contact">
+    <li>Address: <a href="https://www.google.com/maps?ll=32.271467,-64.861028&z=15&t=m&hl=en&gl=US&mapclient=embed&daddr=Caroline+Bay+Marina+8+Caroline+Bay+Rd+Sandys+SB+01+Bermuda@32.271467,-64.86102799999999">8 Caroline Bay Rd, Sandys SB 01, Bermuda</a></li>
+    <li>Phone: <a href="tel: +1 (855) 555-7904">(855) 555-7904</a></li>
+  </ul>
+
+  <ul id="icons">
+    <li>
+      <a href="https://www.facebook.com/facebook" target="_blank"> <!--IMG FROM: https://www.google.com/search?q=facebook+widget+icon&sxsrf=ALeKk01CNU1lhMfRzu_N8KK5kp1na4fcQw:1590164961408&tbm=isch&source=iu&ictx=1&fir=DmnG-9wUl_2CeM%253A%252CVJXk2qIdHoMN0M%252C_&vet=1&usg=AI4_-kS45rbFhNonZMoMTH-5gpdZlMsv9A&sa=X&ved=2ahUKEwicsaKN8sfpAhUPVs0KHZ8JDdkQ9QEwAnoECAoQIA#imgrc=DmnG-9wUl_2CeM:-->
+        <img src="facebook widget.png" alt="Facebook" id="facebook_link" class="footer_widget">
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/" target="_blank"> <!--IMG FROM: https://png.pngtree.com/element_our/md/20180626/md_5b321ca3631b8.jpg-->
+        <img src="insta.png" alt="Instagram" id="insta_link" class="footer_widget">
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/?lang=en" target="_blank"> <!--IMG FROM: https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png-->
+        <img src="twitter.png" alt="Twitter" id="twitter_link" class="footer_widget">
+      </a>
+    </li>
+  </ul>
+</footer>
+  <script src="BBNavigation.js"></script>
+  <script src="BBAbout.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+#intro {
+    text-align: center;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+#main_img {
+    width: 100%;
+    height: auto;
+}
+
+#rave {
+    text-align: center;
+    align-content: center;
+}
+
+#scrollbox {
+    height: 200px;
+    width: 80%;
+    display: inline-block;
+}
+
+#scrollbox > ul {
+    list-style: none;
+}
+
+
+#description {
+    width: 70%;
+    align-self: center;
+    display: inline-block;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_img {
+    width: 100%;
+    height: 100%;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_track-container {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 200ms ease-in;
+    display: block;
+
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_button--left {
+    left: -46px;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.carousel_button--right {
+    right: -46px;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+*/
+.arrow {
+    height: 40px;
+    width: auto;
+}
+
+/*CODE FROM TUTORIALS ON YOUTUBE:
+https://www.youtube.com/watch?v=VYsVOamdB0g
+https://www.youtube.com/watch?v=gBzsE0oieio&t=2498s
+To write the carousel I used/followed the tutorials linked above. I did change a fair bit of it for my 
+purposes, but the central idea for how it works is from these tutorials. 
+*/
